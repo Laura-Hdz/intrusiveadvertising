@@ -33,6 +33,10 @@ html, body{
     overflow: hidden;
 }
 
+/*LANDING PAGE*/
+
+/* MOBILE */
+
 .intro {
     position: relative;
     display: flex;
@@ -58,11 +62,6 @@ html, body{
     width: 70%;
     top:5%;
     left:-20%;
-}
-
-.display {
-    display: block !important;
-    z-index: 1 !important;
 }
 
 #c3 {
@@ -110,6 +109,11 @@ html, body{
     left:70%;
 }
 
+.display {
+    display: block !important;
+    z-index: 1 !important;
+}
+
 .enter {
     position: absolute;
     width: 100%;
@@ -121,4 +125,42 @@ html, body{
 .h1 {
     font-family: 'Roboto Slab', serif;
     color: #EF3C61;
+    font-size: 40px;
+}
+
+/* TABLET */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+.logo {
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+#c1 {
+    width: 90%;
+}
+
+#c4 {
+    left:-35%;
+}
+
+#c7 {
+    left:70%;
+}
+
+#c2, #c3, #c4, #c5, #c6, #c7 {
+    width: 65%;    
+}
+
+.h1 {
+    font-size: 35px;
+}
+}
+
+/* DESKTOP */
+
+@media only screen  and (min-width : 1224px) {
+
+    
 }
