@@ -16,36 +16,32 @@
 	.st9{font-size:12px;}
 </style>
 <g>
-	<path class="st0" d="M351.7,8v209.6c0,14.2,0,14.2-12.7,14.2H12.7C0,231.8,0,231.8,0,217.7V8c0-8,0-8,12.7-8h326.2
-		C351.7,0,351.7,0,351.7,8z"/>
+	<path class="st0" d="M351.7,8.1v209.5c0,14.2,0,14.2-12.7,14.2H12.7C0,231.8,0,231.8,0,217.7V8.1c0-8,0-8,12.7-8h326.2
+		C351.7,0.1,351.7,0.1,351.7,8.1z"/>
 	<g>
-		
-			<image style="overflow:visible;opacity:0.5;" width="94" height="13" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAANCAYAAAAgyNk3AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
-GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAh1JREFUeNrsmEtu20AMhkmOHraE
-ODa0KXSEGlnlAgnQe9m+V4GcoKvA3XTvdiP4KVkvkh25yKNOYrhFW3Qx/2aEkaDFR+LnP4PwthCc
-/oT0tU3vVeCqMJ3NDuDn87krwG9oPB4fgE8nE0sUXxTgGCpOp1Ocz9/jaPSRlmmK77IMt9vEwf8F
-XVxk+i1JdLRY6HL5Qcbjz2q56nP4eAzdrpRlmamqxLTDwngrpDrqY78qHfwztA97GhR7bYcq3iri
-MMw4SRK2r+Q5/EerUWsvt7czurrKTJ73A7wEX3YaUOybCBtqA0VuPQf/hIzXakSNSuyJ7GrmGOp8
-3W8Asvr+PukYM/6wnceOP3T7YrEwAKnP8bqnjd8Dph4E4vtijIigXRz4EyJmJSJt7APU1ICREv2m
-NPllCbBo0jTlh64/Gq7XMBh8wc2GSMKIWj83oXiGCT3TFal1SeckeANqWaltVKj8VjyNifItDQY7
-y/TafvH1rVTzCTabVG3HizaFUGu4CZi6H4kAiufAnxSDWvaHjqfasJhCNBbZbC61Y2vd5GWqsf6D
-1uPNk8dHPld50AsDQwjUcus8/gyP94ynoiBlVbMJ41rXRRPH+87j+e5u0nn8z8O1M33rPwKQQDcM
-qjxiHWIjq5bKLtXUjAbY0T2lGqEI/UOqoaEdiSvgMN4fUs3NDcjDYHU5/j/J8e7k+ndOrnrOydXd
-1fyju5rvAgwAhzMz8YWpnfIAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 265.87 11.27)">
-		</image>
 		<g>
 			<polygon class="st1" points="351.7,15.9 351.7,16 270.5,16.1 			"/>
 		</g>
 	</g>
-	<path class="st2" d="M0,16.3V8c0-8,0-8,12.7-8h326.2c12.7,0,12.7,0,12.7,8v8"/>
+	<path class="st2" d="M0,16.3V8c0-8,0-8,12.7-8H339c12.7,0,12.7,0,12.7,8v8"/>
 	<ellipse class="st0" cx="12.3" cy="8.5" rx="3.1" ry="2.9"/>
 	<ellipse class="st0" cx="22.1" cy="8.5" rx="3.1" ry="2.9"/>
 	<ellipse class="st0" cx="31.9" cy="8.5" rx="3.1" ry="2.9"/>
-	<rect x="0" y="15.9" class="st3" width="351.7" height="14.6"/>
-	<path class="st3" d="M50.5,16.3c0,0,4.8-9.6,7.8-9.6s36.5,0,40.5,0s9.2,9.6,9.2,9.6"/>
+	<path class="st3" d="M351.7,15.9v14.6H0V15.9h50.7c1-1.8,5-9.2,7.6-9.2h40.5c3.5,0,7.9,7.4,9,9.2H351.7z"/>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 36.6046 87.1702)"><tspan x="0" y="0" class="st4 st5 st6">intrusive</tspan><tspan x="0.7" y="17" class="st4 st7 st8" rotate="-3">a</tspan><tspan x="8.8" y="17" class="st4 st7 st8" rotate="-3">d</tspan><tspan x="17.2" y="16.9" class="st4 st7 st8" rotate="-3">j</tspan><tspan x="21.7" y="17" class="st4 st7 st8" rotate="-3">e</tspan><tspan x="29.2" y="17" class="st4 st7 st8" rotate="-3">c</tspan><tspan x="36.1" y="16.9" class="st4 st7 st8" rotate="-3">t</tspan><tspan x="41.9" y="16.9" class="st4 st7 st8" rotate="-3">i</tspan><tspan x="46.4" y="17" class="st4 st7 st8" rotate="-3">v</tspan><tspan x="54.3" y="17" class="st4 st7 st8" rotate="-3">e</tspan><tspan x="0" y="33.6" class="st4 st5 st8">causing disruption or annoyance through </tspan><tspan x="0" y="50.4" class="st4 st5 st8">being unwelcome or uninvited</tspan></text>
+	<text transform="matrix(1 0 0 1 36.6046 87.1702)" class="st4 st5 st6">intrusive</text>
+	<text transform="matrix(1 0 0 1 37.3046 104.1702)" class="st4 st7 st8">a</text>
+	<text transform="matrix(1 0 0 1 45.4046 104.1702)" class="st4 st7 st8">d</text>
+	<text transform="matrix(1 0 0 1 53.8046 104.0702)" class="st4 st7 st8">j</text>
+	<text transform="matrix(1 0 0 1 58.3046 104.1702)" class="st4 st7 st8">e</text>
+	<text transform="matrix(1 0 0 1 65.8046 104.1702)" class="st4 st7 st8">c</text>
+	<text transform="matrix(1 0 0 1 72.7046 104.0702)" class="st4 st7 st8">t</text>
+	<text transform="matrix(1 0 0 1 78.5046 104.0702)" class="st4 st7 st8">i</text>
+	<text transform="matrix(1 0 0 1 83.0046 104.1702)" class="st4 st7 st8">v</text>
+	<text transform="matrix(1 0 0 1 90.9046 104.1702)" class="st4 st7 st8">e</text>
+	<text transform="matrix(1 0 0 1 36.6046 120.7702)" class="st4 st5 st8">causing disruption or annoyance through </text>
+	<text transform="matrix(1 0 0 1 36.6046 137.5702)" class="st4 st5 st8">being unwelcome or uninvited</text>
 	<text transform="matrix(1 0 0 1 157.514 195.6732)" class="st4 st5 st9">[enter]</text>
 </g>
 </svg>

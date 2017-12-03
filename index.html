@@ -8,6 +8,16 @@
 <body>
 
 <div id="wrapper"> 
+   
+	<nav class="container" onclick="nav(this)">
+  		<div class="bar1"></div>
+ 	 	<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</nav>
+
+	<div id="links" class="style">
+		This is a DIV element.
+	</div>
     
     <div class="intro">
     <div class="logo"><img src="svg/logo.svg"></div>
@@ -23,11 +33,14 @@
     <div onclick="myAnim7()" id="c7"><img src="svg/landing2.svg"></div>
     
     <div class="enter">
-        <h1 class="h1">[please let me browse]</h1>
+        <h1 class="enterh1"><a href="html/intrusiveads.html">[please let me browse]</a></h1>
     </div>
 
 <!--Javascript-->
     <script>
+        
+        //FOR THE BOXES
+        
         function myAnim() {
             console.log(alert)
             document.getElementById("c2").classList.toggle("display");
@@ -56,6 +69,14 @@
             console.log(alert)
             document.getElementById("c7").classList.toggle("display");
         }
+        
+        //FOR THE NAVIGATION
+        
+		function nav(x) {
+			var element = document.getElementById("links");
+			element.classList.toggle("mystyle");
+			x.classList.toggle("change");
+		}
     </script>
 
 </div>
