@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* FONTS 
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+/* COLORS 
+Reds: #EF3C61, #DD2E50
+Blues: #482FDF, #5A56EF
+Turquoise: #40EDE2, #40C1E2
+Light Grays: #F0F0F0, #DCDCDC
+Dark Grays: #656D79, #434A54
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto+Slab:400,700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+} 
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #F0F0F0;
+    overflow: hidden;
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.logo {
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+#c1 {
+    width: 100%;
+}
+
+#c2 {
+    position: fixed;
+    display:none;
+    z-index: -99;
+    width: 70%;
+    top:5%;
+    left:-20%;
+}
+
+.display {
+    display: block !important;
+    z-index: 1 !important;
+}
+#c3 {
+    display:none;
+    z-index: -99;
+    position: fixed;
+    width: 70%;
+    top:25%;
+    left:30%;
+}
+
+#c4 {
+    display:none;
+    z-index: -99;
+    position: fixed;
+    width: 70%;
+    top:68%;
+    left:-30%;
+}
+
+#c5 {
+    display:none;
+    z-index: -99;
+    position: fixed;
+    width: 70%;
+    top:-5%;
+    left:60%;
+}
+
+#c6 {
+    z-index: -99;
+    display:none;
+    position: fixed;
+    width: 70%;
+    top:45%;
+    left:-50%;
+}
+
+#c7 {
+    z-index: -99;
+    display:none;
+    position: fixed;
+    width: 70%;
+    top:65%;
+    left:70%;
+}
+
+.enter {
+    position: absolute;
+    width: 100%;
+    bottom: 2%; 
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #EF3C61;
+}
