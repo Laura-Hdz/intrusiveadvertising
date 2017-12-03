@@ -64,6 +64,7 @@ html, body{
     display: block !important;
     z-index: 1 !important;
 }
+
 #c3 {
     display:none;
     z-index: -99;
