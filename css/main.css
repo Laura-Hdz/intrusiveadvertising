@@ -125,7 +125,7 @@ html, body{
 .h1 {
     font-family: 'Roboto Slab', serif;
     color: #EF3C61;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 /* TABLET */
@@ -154,7 +154,7 @@ html, body{
 }
 
 .h1 {
-    font-size: 35px;
+    font-size: 90px;
 }
 }
 
