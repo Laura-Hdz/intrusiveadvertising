@@ -70,10 +70,10 @@ html, body{
 	}
 
 	.bar1, .bar2, .bar3 {
-		width: 7px;
-		height: 7px;
+		width: 20px;
+		height: 20px;
 		background-color: #EF3C61;
-		margin: 6px 6px;
+		margin: 10px 6px;
 		transition: 0.4s;
 	}
 
@@ -85,14 +85,14 @@ html, body{
 
 	.change .bar2 {
         background-color: #40EDE2;
-		-webkit-transform: translate(-24px, -7px) ;
-		transform: translate(-24px, -7px) ;
+		-webkit-transform: translate(-40px, -24px) ;
+		transform: translate(-40px, -24px) ;
 	}
 
 	.change .bar3 {
         background-color: #40EDE2;
-		-webkit-transform: translate(-40px, 20px) ;
-		transform: translate(-40px, -20px) ;
+		-webkit-transform: translate(-70px, -54px) ;
+		transform: translate(-70px, -54px) ;
 	}    
 
 
@@ -188,7 +188,7 @@ html, body{
 
 .enterh1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .enterh1 a {
@@ -226,13 +226,14 @@ html, body{
     padding-top: 15%;
     margin: auto;
     width: 75%;
+    height: 25%;
 }
 
 .definition {
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
     color: #482FDF;
-    font-size: 20px;
+    font-size: 40px;
     hyphens: auto;
 }
 
@@ -245,8 +246,8 @@ html, body{
 }
 
 .info {
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 40px;
     font-family: 'Lato', sans-serif;
     color: #EF3C61;
     hyphens: auto;
@@ -305,28 +306,23 @@ html, body{
 }
 
 .enterh1 {
-font-size: 20px;
+font-size: 28px;
 }
 
 /*INTRUSIVE ADS*/
     
 #description {
-    padding-top: 5%;
 }
 
 .definition {
-    font-size: 30px;
 }
 
 #text {
     padding: 5% 0;
-    height: 40%;
     overflow: scroll;
 }
 
 .info {
-    font-size: 14px;
-    line-height: 22px;
 }
 .info p{
     padding-bottom:10px; 
@@ -403,15 +399,13 @@ font-size: 20px;
     top:60%;
     left:68%;
 }
+
+.enterh1 {
+font-size: 28px;
 }
 
-[aos="fade"] {
-  opacity: 0;
-  transition-property: opacity;
 }
 
-[aos="fade"].aos-animate {
-  opacity: 1;
 }
 #section2 {
     height: 100%;
