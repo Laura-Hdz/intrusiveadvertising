@@ -38,6 +38,10 @@ img {
 	filter:drop-shadow(1px 1px 2.5px #656D79);
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 /************** NAVIGATION **************/
 
 #logo {
