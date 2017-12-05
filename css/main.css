@@ -1722,6 +1722,12 @@ font-size: 20px;
 	hyphens: auto;
 }
 
+.adnointru {
+	width: 100%;
+	padding: 5%;
+	
+}
+
 /*TABLET*/
  @media only screen and (min-width : 500px) and (max-width : 1024px) { 
 
