@@ -25,7 +25,7 @@
 	</div>
     
         <div id="section3">
-			<div id="popup">	
+			<div id="popup" onclick="show()">
 			<img class="popup" src="../svg/popup.svg">
 			<img class="popupm" src="../svg/popupm.svg">
 			<img class="base" src="../svg/base.svg">
@@ -38,7 +38,7 @@
 			<p>“Pop-up ads are a type of interstitial ad that do exactly what they say — pop up and block the main content of the page. They appear after content on the page begins to load and are among the most commonly cited annoyances for visitors to a website. Pop-up ads come in many varieties – they can take up part of the screen, or the entire screen.”</p>
 			</div>
 			
-			<div id="autoplayvid">
+			<div id="autoplayvid" onclick="show2()">
 			<img class="autoplay" src="../svg/autoplayvid.svg">
 			<img class="autoplaym" src="../svg/autoplayvidm.svg">
 			<img class="autoplaynote" src="../svg/autoplayvidnote.svg">
@@ -51,7 +51,7 @@
 			<p>“Auto-playing video ads play sound without any user interaction. These experiences are especially disruptive to users, as they catch the readers off guard, and often compel them to quickly close the window or tab in order to stop the sound. Ads that require a click to activate sound did not fall beneath the initial Better Ads Standard.”</p>
 			</div>
 			
-			<div id="prestitialcount">
+			<div id="prestitialcount" onclick="show3()">
 			<img class="prestitialcount" src="../svg/prestitialcountdown.svg">
 			<img class="prestitialcountm" src="../svg/prestitialcountdownm.svg">
 			<img class="cobase" src="../svg/base.svg">
@@ -66,7 +66,7 @@
 		</div>	
 		
 		<div id="section4">
-			<div id="sticky">
+			<div id="sticky" onclick="show4()">
 			<img class="sticky" src="../svg/largestickyad.svg">
 			<img class="stickym" src="../svg/largestickyadm.svg">
 			<img class="stbase" src="../svg/base.svg">
@@ -79,7 +79,7 @@
 			<p>“Large Sticky Ads stick to the edge of a page, regardless of a user’s efforts to scroll. As the user browses the page, this static, immobile sticky ad takes up more than 30% of the screen’s real estate. A Large Sticky Ad has an impeding effect by continuing to obstruct a portion of the page view regardless of where the user moves on the page.”</p>
 			</div>
 			
-			<div id="density">
+			<div id="density" onclick="show5()">
 			<img class="density" src="../svg/basem.svg">
 			<img class="densityad" src="../svg/densitymb.svg">
 			</div>
@@ -90,7 +90,7 @@
 			<p>“When ads on a mobile page take up more than 30% of the vertical height of the main content portion of the page, the result is a disruptive ad experience, regardless of whether these ads are text, video, or static images. This includes “sticky” ads and in-line ads. This kind of density makes it very difficult to focus on text content on a mobile device, and can lead to frustrated users.”</p>
 			</div>
 			
-			<div id="flashing">
+			<div id="flashing" onclick="show6()">
 			<img class="flashing" src="../svg/flashingm.svg">
 			<img class="flashing2" src="../svg/flashingm2.svg">
 			<img class="flbase" src="../svg/basem.svg">
@@ -104,7 +104,7 @@
 		</div>	
 		
 		<div id="section5">
-			<div id="prestitial">
+			<div id="prestitial" onclick="show7()">
 			<img class="prestitial" src="../svg/prestitialm.svg">
 			<img class="prebase" src="../svg/basem.svg">
 			</div>
@@ -115,7 +115,7 @@
 			<p>“Mobile prestitial ads appear on a mobile page before content has loaded, blocking the user from continuing on to the content they have sought out. These pop-ups vary in size from full-screen to part of the screen. They may also appear as a standalone page that prevents users from getting to the main content.”</p>
 			</div>
 			
-			<div id="fullscroll">
+			<div id="fullscroll" onclick="show8()">
 			<img class="fullscroll" src="../svg/scrollm.svg">
 			<img class="fubase" src="../svg/basem.svg">
 			</div>
@@ -140,6 +140,42 @@
         //FOR THE OVERLAY AD
         function myAnim() { document.getElementById("overlay").classList.toggle("hide");
         }
+		
+		//FOR THE DESCRIPTIONS
+		
+	  	function show() {
+        document.getElementById("popupdesc").classList.toggle("show");
+		}
+		
+		function show2() {
+		document.getElementById("autoplaydesc").classList.toggle("show");
+		}
+		
+		function show3() {
+		document.getElementById("countddesc").classList.toggle("show");
+		}
+		
+		function show4() {
+		document.getElementById("stickydesc").classList.toggle("show");
+		}
+		
+		function show5() {
+		document.getElementById("densitydesc").classList.toggle("show");
+		}
+		
+		function show6() {
+		document.getElementById("flashingdesc").classList.toggle("show");
+		}
+		
+		function show7() {
+		document.getElementById("prestitialdesc").classList.toggle("show");
+		}
+		
+		function show8() {
+		document.getElementById("fullscrolldesc").classList.toggle("show");
+		}
+		
+		
     </script>
 
 

@@ -34,10 +34,6 @@ html, body{
     background-color: #F0F0F0;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
-}
-
 img {
 	filter:drop-shadow(1px 1px 2.5px #656D79);
 }
@@ -999,6 +995,14 @@ font-size: 20px;
 	margin-top: 22%;
 }
 
+#popupdesc {
+	opacity: 0;
+}
+
+.show {
+	opacity: 1 !important;
+}
+
 .base {
 	width: 70%;
 }
@@ -1409,6 +1413,7 @@ font-size: 20px;
 	}
 
 #autoplaydesc {
+	opacity: 0;
 	order: 7;
 	}
 
@@ -1451,6 +1456,7 @@ font-size: 20px;
 	}
 
 #countddesc {
+	opacity: 0;
 	order: 8;
 	}
 
@@ -1490,6 +1496,7 @@ font-size: 20px;
 	}
 
 #stickydesc {
+	opacity: 0;
 	order: 6;	
 	}
 
@@ -1537,7 +1544,8 @@ font-size: 20px;
 	}
 	
 #densitydesc {
-		order: 7;
+	opacity: 0;
+	order: 7;
 	}
 
 .densityad {
@@ -1560,6 +1568,7 @@ font-size: 20px;
 	}
 	
 #flashingdesc {
+	opacity: 0;
 		order: 8;
 	}
 
@@ -1592,6 +1601,7 @@ font-size: 20px;
 }
 
 #prestitialdesc{
+	opacity: 0;
 	order: 4;		
 }
 	
@@ -1616,6 +1626,7 @@ font-size: 20px;
 }
 
 #fullscrolldesc {
+	opacity: 0;
 	order: 5;
 }
 
