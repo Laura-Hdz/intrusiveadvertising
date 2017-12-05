@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<title>Coalition for Better Ads</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<div id="wrapper2">
+	
+	<div id="logo"><a href="../index.html"><img src="../svg/logoicon.svg"></a></div>
+    
+    <nav class="container" onclick="nav(this)">
+  		<div class="bar1"></div>
+ 	 	<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</nav>
+
+	<div id="links" class="style">		
+		<a class="navlogo" href="../index.html"><img src="../svg/navicon.svg"></a>
+		<a class="navintrusive" href="intrusiveads.html">Intrusive Advertising</a>
+		<a class="navcoalition" href="cfba.html">Coalition for Better Ads</a>
+		<a class="navtypes" href="cfba12.html">The 12 Types of Ads</a>
+		<a class="navadblocknonintru" href="adblocknonintrusive.html">Adblock &amp; Non-Intrusive Ads</a>
+		<a class="navabout" href="about.html">About the Project</a>
+		</div>
+    
+	<div id="aboutadblock">
+		<div class="adblockt"><p>Adblock</p></div>
+		<div id="scroll">
+		<div class="adblocki">
+		<p>An adblock is an extension that prevents users from encountering most online advertising by automatically hiding the ads when visiting a page. Adblock is mainly a result of intrusive advertising, as more and more people grow tired of bad and annoying online ads. Mehmood Hanif, who is a marketing strategist for Bad Ad Johnny (a well-known adblock extension), “estimates that the average Internet user is served 11,250 ads per month, which he bases on the number of times the software blocks a banner or pop-up”. While not necessarily all of these might be intrusive advertising, it is difficult for the user to know on which website they’ll be bombarded with auto-playing videos and which will have reasonable ads; this leads to most people blocking all ads to improve their browsing experience.</p>
+		<p>This leads to problems for organizations and content producers who rely on advertising in order to create revenue. It is estimated that if ad blocking continues in its upward trend, combined with the fact that many publishers and advertisers ineffectively try to combat it by doing things such as blocking access to a website if adblock is on, publishers will lose $35 billion by 2020. Google, with the Coalition for Better Ads, hope to change this by creating a better user experience and blocking ads that are truly annoying. “Advertising makes up 86% of Google’s revenue” so it is in Google’s (and many organizations’) best interest to change the way advertising affects users and encourage ad consumption.</p></div></div>
+	</div>
+	
+	<div id="aboutnonintru">
+		<div class="nonintrut"><p>Non-Intrusive Ads</p></div>
+		<div class="nonintrui">
+		<p>Non intrusive advertising can entice users to click on ads without disrupting the content or flow of the page, as well as encourage them to turn off their adblock. Positioning, for example, is a good example of ways to improve ad consumption. The positioning of sections such as “other products you may like” at the bottom of pages “is such that the web user does not even realise that he is consuming an ad but also willingly goes through what the brands offer” and in doing so increases the chances of them buying. “Substantial, subtle and smart advertising is the key to success.” It is all about showing relevant content at the right place and the right time; the minute an ad disturbs the user experience, it can be considered intrusive and creates a negative image of both the brand or service and the website.</p>
+</div>
+	</div>
+	
+</div>
+    <script>
+        
+        //FOR THE NAVIGATION
+        
+        function nav(x) {
+			var element = document.getElementById("links");
+			element.classList.toggle("mystyle");
+			x.classList.toggle("change");
+        }
+        
+        //FOR THE OVERLAY AD
+        function myAnim() { document.getElementById("overlay").classList.toggle("hide");
+        }
+    </script>
+
+
+</body>
+</html>
