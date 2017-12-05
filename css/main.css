@@ -1271,9 +1271,9 @@ font-size: 20px;
 }
 
 @keyframes prest {
-	0% {top:12.3%; opacity: 1; clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
-	50% {top: 50%; opacity: 0; clip-path: polygon(0 0, 100% 0%, 100% 55%, 0% 55%);}
-	100% {top:12.3%; opacity: 1; clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
+	0% {top:12.3%; clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
+	50% {top: 94.5%; clip-path: polygon(0 0, 100% 0%, 100% 0%, 0% 0%);}
+	100% {top:12.3%; clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
 }
 
 #fullscrolldesc {
