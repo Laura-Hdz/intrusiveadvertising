@@ -997,6 +997,7 @@ font-size: 20px;
 
 #popupdesc {
 	opacity: 0;
+	opacity: 0;
 }
 
 .show {
@@ -1055,6 +1056,10 @@ font-size: 20px;
 	margin-top: 10%;
 }
 
+#autoplaydesc {
+	opacity: 0;
+}
+
 .autoplay {
 	width: 70%;
 }
@@ -1099,6 +1104,10 @@ font-size: 20px;
 	width: 80%;
 	position: relative;
 	margin-top: 10%;
+}
+
+#countddesc {
+	opacity: 0;
 }
 
 .cobase {
@@ -1153,6 +1162,10 @@ font-size: 20px;
 	margin-top: 10%;
 }
 
+#stickydesc {
+	opacity: 0;
+}
+
 .stbase {
 	width: 70%;
 }
@@ -1197,6 +1210,10 @@ font-size: 20px;
 	margin-top: 10%;
 }
 
+#densitydesc {
+	opacity: 0;
+}
+
 .densityad {
 	left: 10.4%;
 	top: 12%;
@@ -1217,6 +1234,10 @@ font-size: 20px;
 	width: 50%;
 	position: relative;
 	margin-top: 10%;
+}
+
+#flashingdesc {
+	opacity: 0;
 }
 
 .flashing {
@@ -1248,6 +1269,10 @@ font-size: 20px;
 	margin-top: 10%;
 }
 
+#prestitialdesc {
+	opacity: 0;
+}
+
 .prestitial {
 	left: 10.4%;
 	top: 12.3%;
@@ -1269,6 +1294,7 @@ font-size: 20px;
 	margin-top: 10%;
 }
 
+
 .fullscroll {
 	left: 10.4%;
 	top: 12.3%;
@@ -1286,6 +1312,7 @@ font-size: 20px;
 
 #fullscrolldesc {
 	margin-bottom: 10%;
+	opacity: 0;
 }
 
 /** Description Text **/
@@ -1372,6 +1399,7 @@ font-size: 20px;
 	}
 
 #popupdesc {
+	opacity: 0;
 	order: 6;
 	}
 	
