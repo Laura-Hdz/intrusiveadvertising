@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 327.8 406.6" style="enable-background:new 0 0 327.8 406.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#482FDF;}
+	.st1{fill:#F0F0F0;}
+	.st2{fill:#DCDCDC;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#40EDE2;}
+	.st5{fill:none;stroke:#482FDF;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#E6E9EE;stroke-miterlimit:10;}
+</style>
+<g id="apvb_x5F_bluebg">
+	<g>
+		<path class="st0" d="M327.8,6.1v389.6c0,10.9,0,10.9-9.7,10.9H9.7c-9.7,0-9.7,0-9.7-10.9V6.1C0,0,0,0,9.7,0h308.5
+			C327.8,0,327.8,0,327.8,6.1z"/>
+	</g>
+</g>
+<g id="apvb_x5F_top">
+	<g>
+		<path class="st1" d="M0,12.4V6.1C0,0,0,0,9.7,0h308.4c9.7,0,9.7,0,9.7,6.1v6.1"/>
+	</g>
+	<ellipse class="st0" cx="9.3" cy="6.4" rx="2.3" ry="2.2"/>
+	<ellipse class="st0" cx="16.8" cy="6.4" rx="2.3" ry="2.2"/>
+	<ellipse class="st0" cx="24.2" cy="6.4" rx="2.3" ry="2.2"/>
+	<path class="st2" d="M327.8,12.1v11.1H0V12.1h38.6c0.7-1.4,3.8-7,5.8-7h30.8c2.7,0,6.1,5.6,6.9,7H327.8z"/>
+</g>
+<g id="apvb_x5F_whitecont">
+	<rect x="40" y="51.6" class="st3" width="252.4" height="32.4"/>
+	<rect x="175.2" y="90.6" class="st3" width="117.3" height="75.7"/>
+	<rect x="108.7" y="173" class="st3" width="183.8" height="122.4"/>
+	<rect x="40" y="90.6" class="st3" width="57.9" height="204.7"/>
+	<rect x="107.6" y="90.6" class="st3" width="57.9" height="75.7"/>
+	<rect x="40" y="302.4" class="st3" width="125.4" height="75.3"/>
+</g>
+<g id="apvb_x5F_greenvid">
+	<rect x="175.2" y="302.4" class="st4" width="117.3" height="75.3"/>
+</g>
+<g id="apvb_x5F_lines">
+	<line class="st5" x1="180.4" y1="370.5" x2="180.4" y2="374"/>
+	<line class="st5" x1="182.7" y1="370.5" x2="182.7" y2="374"/>
+	<line class="st6" x1="175.2" y1="367.7" x2="292.5" y2="367.7"/>
+	<line class="st5" x1="175.2" y1="367.7" x2="268" y2="367.7"/>
+</g>
+</svg>

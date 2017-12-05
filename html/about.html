@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>Intrusive Advertising</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<div id="wrapper">
+	
+	<div id="logo"><a href="../index.html"><img src="../svg/logoicon.svg"></a></div>
+    
+    <nav class="container" onclick="nav(this)">
+  		<div class="bar1"></div>
+ 	 	<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</nav>
+
+	<div id="links" class="style">
+		This is a DIV element.
+	</div>
+    
+    <div id="about">
+		<div id="project">
+        <div class="proj">
+        <p>Intrusive Advertising: <br> Final webiste for DART 449.</p>
+        </div>
+    </div>
+    
+    <div id="projdesc">
+        <div class="projinfo" >
+        <p>Browsing the internet has become an almost unbearable experience without an adblock extension or browser. Reading articles or visiting small blogs (or even going through your facebook feed) can become so frustrating because of intrusive advertising that instead of incentivizing users to continue browsing or look further into the subject of the ad, it makes them leave and turn to different websites that will provide a better user experience. Intrusive advertising isn’t only annoying for the user, it can sometimes completely render websites unreachable or unusable, particularly on mobile when an ad redirects to a different page or covers the whole screen with an impossible-to-close ad.</p>
+
+		<p>It is easy to understand why advertising is inevitable; its purpose is “to provide revenue to the publisher and returns to the advertiser” which then allows the publisher to keep their website and content alive. The problem becomes that publishers don’t focus on user experience but on creating a revenue, and this results in intrusive ads that ultimately hurt their image or force users to use an adblock in order to access the content. As a student and designer, this issue is incredibly relevant since the internet has become my main tool for research, inspiration and even entertainment; it is rare that I try to read articles on mobile anymore and I even more rarely disable adblock when browsing on my laptop.</p>
+
+		<p>It is for these reasons that I decided to look into this subject for this website. I wanted to provide information on what intrusive advertising is along with different types of intrusive advertising, why people use adblock, the effects of adblock, and the effectiveness of non-intrusive advertising.</p>
+		</div>
+    </div>
+        
+</div>
+    <script>
+        
+        //FOR THE NAVIGATION
+        
+        function nav(x) {
+			var element = document.getElementById("links");
+			element.classList.toggle("mystyle");
+			x.classList.toggle("change");
+        }
+        
+        //FOR THE OVERLAY AD
+        function myAnim() { document.getElementById("overlay").classList.toggle("hide");
+        }
+    </script>
+
+
+</body>
+</html>

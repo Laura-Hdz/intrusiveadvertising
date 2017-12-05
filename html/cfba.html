@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Intrusive Advertising</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<div id="wrapper">
+	
+	<div id="logo"><a href="../index.html"><img src="../svg/logoicon.svg"></a></div>
+    
+    <nav class="container" onclick="nav(this)">
+  		<div class="bar1"></div>
+ 	 	<div class="bar2"></div>
+  		<div class="bar3"></div>
+	</nav>
+
+	<div id="links" class="style">
+		This is a DIV element.
+	</div>
+    
+        <div id="section2">
+        <div id="cfba">
+            <div class="cfbades">
+            <p>The Coalition for Better Ads is an organization that aims to create standards for online advertising in order to provide a better user experience while still allowing content creators and organizations to create revenue through online ads.</p>
+			</div>
+			<div class="cfbatext">
+			<p>
+			The Coalition for Better Ads was formed by several leading international trade associations and companies, including Microsoft, Google, Facebook, and many others. Their goal is to address our (the consumer’s) expectations when it comes to our browsing experience as well as develop a less frustrating form of advertising in order to continue supporting websites that depend on ads to keep their content available and free. <a href="cfba12.html">Here are the 12 unacceptable types of ads as defined by the Coalition for Better Ads.</a>
+			</p>
+			</div>
+        </div>
+			
+			<div id="autoplayvidbig">
+				<img class="vidbig" src="../svg/autoplayvid_big.svg">
+
+				<img class="note1" src="../svg/bignote1.svg">
+				<img class="note2" src="../svg/bignote2.svg">
+				<img class="note3" src="../svg/bignote3.svg">
+				<img class="note4" src="../svg/bignote4.svg">
+				<img class="note5" src="../svg/bignote5.svg">
+			</div>
+    	</div>
+    
+</div>
+    <script>
+        
+        //FOR THE NAVIGATION
+        
+        function nav(x) {
+			var element = document.getElementById("links");
+			element.classList.toggle("mystyle");
+			x.classList.toggle("change");
+        }
+        
+        //FOR THE OVERLAY AD
+        function myAnim() { document.getElementById("overlay").classList.toggle("hide");
+        }
+    </script>
+
+
+</body>
+</html>
